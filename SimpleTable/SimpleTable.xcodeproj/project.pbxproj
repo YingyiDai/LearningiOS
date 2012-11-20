@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCC46FA1635CEF30065234E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC46F91635CEF30065234E /* UIKit.framework */; };
+		FDCC46FC1635CEF30065234E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC46FB1635CEF30065234E /* Foundation.framework */; };
+		FDCC46FE1635CEF30065234E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC46FD1635CEF30065234E /* CoreGraphics.framework */; };
+		FDCC47041635CEF30065234E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCC47021635CEF30065234E /* InfoPlist.strings */; };
+		FDCC47061635CEF30065234E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC47051635CEF30065234E /* main.m */; };
+		FDCC470A1635CEF30065234E /* SimpleTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC47091635CEF30065234E /* SimpleTableAppDelegate.m */; };
+		FDCC470D1635CEF30065234E /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC470C1635CEF30065234E /* SimpleTableViewController.m */; };
+		FDCC47101635CEF30065234E /* SimpleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDCC470E1635CEF30065234E /* SimpleTableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDCC46F51635CEF30065234E /* SimpleTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCC46F91635CEF30065234E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDCC46FB1635CEF30065234E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDCC46FD1635CEF30065234E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDCC47011635CEF30065234E /* SimpleTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTable-Info.plist"; sourceTree = "<group>"; };
+		FDCC47031635CEF30065234E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDCC47051635CEF30065234E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDCC47071635CEF30065234E /* SimpleTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTable-Prefix.pch"; sourceTree = "<group>"; };
+		FDCC47081635CEF30065234E /* SimpleTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableAppDelegate.h; sourceTree = "<group>"; };
+		FDCC47091635CEF30065234E /* SimpleTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableAppDelegate.m; sourceTree = "<group>"; };
+		FDCC470B1635CEF30065234E /* SimpleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
+		FDCC470C1635CEF30065234E /* SimpleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
+		FDCC470F1635CEF30065234E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpleTableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCC46F21635CEF30065234E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC46FA1635CEF30065234E /* UIKit.framework in Frameworks */,
+				FDCC46FC1635CEF30065234E /* Foundation.framework in Frameworks */,
+				FDCC46FE1635CEF30065234E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCC46EA1635CEF30065234E = {
+			isa = PBXGroup;
+			children = (
+				FDCC46FF1635CEF30065234E /* SimpleTable */,
+				FDCC46F81635CEF30065234E /* Frameworks */,
+				FDCC46F61635CEF30065234E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCC46F61635CEF30065234E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC46F51635CEF30065234E /* SimpleTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCC46F81635CEF30065234E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC46F91635CEF30065234E /* UIKit.framework */,
+				FDCC46FB1635CEF30065234E /* Foundation.framework */,
+				FDCC46FD1635CEF30065234E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCC46FF1635CEF30065234E /* SimpleTable */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC47081635CEF30065234E /* SimpleTableAppDelegate.h */,
+				FDCC47091635CEF30065234E /* SimpleTableAppDelegate.m */,
+				FDCC470B1635CEF30065234E /* SimpleTableViewController.h */,
+				FDCC470C1635CEF30065234E /* SimpleTableViewController.m */,
+				FDCC470E1635CEF30065234E /* SimpleTableViewController.xib */,
+				FDCC47001635CEF30065234E /* Supporting Files */,
+			);
+			path = SimpleTable;
+			sourceTree = "<group>";
+		};
+		FDCC47001635CEF30065234E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC47011635CEF30065234E /* SimpleTable-Info.plist */,
+				FDCC47021635CEF30065234E /* InfoPlist.strings */,
+				FDCC47051635CEF30065234E /* main.m */,
+				FDCC47071635CEF30065234E /* SimpleTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCC46F41635CEF30065234E /* SimpleTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCC47131635CEF30065234E /* Build configuration list for PBXNativeTarget "SimpleTable" */;
+			buildPhases = (
+				FDCC46F11635CEF30065234E /* Sources */,
+				FDCC46F21635CEF30065234E /* Frameworks */,
+				FDCC46F31635CEF30065234E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTable;
+			productName = SimpleTable;
+			productReference = FDCC46F51635CEF30065234E /* SimpleTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCC46EC1635CEF30065234E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SimpleTable;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = SCUT;
+			};
+			buildConfigurationList = FDCC46EF1635CEF30065234E /* Build configuration list for PBXProject "SimpleTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDCC46EA1635CEF30065234E;
+			productRefGroup = FDCC46F61635CEF30065234E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCC46F41635CEF30065234E /* SimpleTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCC46F31635CEF30065234E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC47041635CEF30065234E /* InfoPlist.strings in Resources */,
+				FDCC47101635CEF30065234E /* SimpleTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCC46F11635CEF30065234E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC47061635CEF30065234E /* main.m in Sources */,
+				FDCC470A1635CEF30065234E /* SimpleTableAppDelegate.m in Sources */,
+				FDCC470D1635CEF30065234E /* SimpleTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDCC47021635CEF30065234E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCC47031635CEF30065234E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDCC470E1635CEF30065234E /* SimpleTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCC470F1635CEF30065234E /* en */,
+			);
+			name = SimpleTableViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCC47111635CEF30065234E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDCC47121635CEF30065234E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCC47141635CEF30065234E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDCC47151635CEF30065234E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCC46EF1635CEF30065234E /* Build configuration list for PBXProject "SimpleTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC47111635CEF30065234E /* Debug */,
+				FDCC47121635CEF30065234E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCC47131635CEF30065234E /* Build configuration list for PBXNativeTarget "SimpleTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC47141635CEF30065234E /* Debug */,
+				FDCC47151635CEF30065234E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCC46EC1635CEF30065234E /* Project object */;
+}
