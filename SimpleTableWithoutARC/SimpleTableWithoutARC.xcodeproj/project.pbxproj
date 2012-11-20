@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCC47261635D6C30065234E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC47251635D6C30065234E /* UIKit.framework */; };
+		FDCC47281635D6C30065234E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC47271635D6C30065234E /* Foundation.framework */; };
+		FDCC472A1635D6C30065234E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC47291635D6C30065234E /* CoreGraphics.framework */; };
+		FDCC47301635D6C30065234E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCC472E1635D6C30065234E /* InfoPlist.strings */; };
+		FDCC47321635D6C30065234E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC47311635D6C30065234E /* main.m */; };
+		FDCC47361635D6C30065234E /* SimpleTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC47351635D6C30065234E /* SimpleTableAppDelegate.m */; };
+		FDCC47391635D6C30065234E /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC47381635D6C30065234E /* SimpleTableViewController.m */; };
+		FDCC473C1635D6C30065234E /* SimpleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDCC473A1635D6C30065234E /* SimpleTableViewController.xib */; };
+		FDCC47431635E12E0065234E /* star_fav.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCC47421635E12E0065234E /* star_fav.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDCC47211635D6C30065234E /* SimpleTableWithoutARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableWithoutARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCC47251635D6C30065234E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDCC47271635D6C30065234E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDCC47291635D6C30065234E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDCC472D1635D6C30065234E /* SimpleTableWithoutARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableWithoutARC-Info.plist"; sourceTree = "<group>"; };
+		FDCC472F1635D6C30065234E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDCC47311635D6C30065234E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDCC47331635D6C30065234E /* SimpleTableWithoutARC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTableWithoutARC-Prefix.pch"; sourceTree = "<group>"; };
+		FDCC47341635D6C30065234E /* SimpleTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableAppDelegate.h; sourceTree = "<group>"; };
+		FDCC47351635D6C30065234E /* SimpleTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableAppDelegate.m; sourceTree = "<group>"; };
+		FDCC47371635D6C30065234E /* SimpleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
+		FDCC47381635D6C30065234E /* SimpleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
+		FDCC473B1635D6C30065234E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpleTableViewController.xib; sourceTree = "<group>"; };
+		FDCC47421635E12E0065234E /* star_fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_fav.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCC471E1635D6C30065234E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC47261635D6C30065234E /* UIKit.framework in Frameworks */,
+				FDCC47281635D6C30065234E /* Foundation.framework in Frameworks */,
+				FDCC472A1635D6C30065234E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCC47161635D6C30065234E = {
+			isa = PBXGroup;
+			children = (
+				FDCC472B1635D6C30065234E /* SimpleTableWithoutARC */,
+				FDCC47241635D6C30065234E /* Frameworks */,
+				FDCC47221635D6C30065234E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCC47221635D6C30065234E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC47211635D6C30065234E /* SimpleTableWithoutARC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCC47241635D6C30065234E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC47251635D6C30065234E /* UIKit.framework */,
+				FDCC47271635D6C30065234E /* Foundation.framework */,
+				FDCC47291635D6C30065234E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCC472B1635D6C30065234E /* SimpleTableWithoutARC */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC47421635E12E0065234E /* star_fav.png */,
+				FDCC47341635D6C30065234E /* SimpleTableAppDelegate.h */,
+				FDCC47351635D6C30065234E /* SimpleTableAppDelegate.m */,
+				FDCC47371635D6C30065234E /* SimpleTableViewController.h */,
+				FDCC47381635D6C30065234E /* SimpleTableViewController.m */,
+				FDCC473A1635D6C30065234E /* SimpleTableViewController.xib */,
+				FDCC472C1635D6C30065234E /* Supporting Files */,
+			);
+			path = SimpleTableWithoutARC;
+			sourceTree = "<group>";
+		};
+		FDCC472C1635D6C30065234E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC472D1635D6C30065234E /* SimpleTableWithoutARC-Info.plist */,
+				FDCC472E1635D6C30065234E /* InfoPlist.strings */,
+				FDCC47311635D6C30065234E /* main.m */,
+				FDCC47331635D6C30065234E /* SimpleTableWithoutARC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCC47201635D6C30065234E /* SimpleTableWithoutARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCC473F1635D6C30065234E /* Build configuration list for PBXNativeTarget "SimpleTableWithoutARC" */;
+			buildPhases = (
+				FDCC471D1635D6C30065234E /* Sources */,
+				FDCC471E1635D6C30065234E /* Frameworks */,
+				FDCC471F1635D6C30065234E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTableWithoutARC;
+			productName = SimpleTableWithoutARC;
+			productReference = FDCC47211635D6C30065234E /* SimpleTableWithoutARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCC47181635D6C30065234E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SimpleTable;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = SCUT;
+			};
+			buildConfigurationList = FDCC471B1635D6C30065234E /* Build configuration list for PBXProject "SimpleTableWithoutARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDCC47161635D6C30065234E;
+			productRefGroup = FDCC47221635D6C30065234E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCC47201635D6C30065234E /* SimpleTableWithoutARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCC471F1635D6C30065234E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC47301635D6C30065234E /* InfoPlist.strings in Resources */,
+				FDCC473C1635D6C30065234E /* SimpleTableViewController.xib in Resources */,
+				FDCC47431635E12E0065234E /* star_fav.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCC471D1635D6C30065234E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC47321635D6C30065234E /* main.m in Sources */,
+				FDCC47361635D6C30065234E /* SimpleTableAppDelegate.m in Sources */,
+				FDCC47391635D6C30065234E /* SimpleTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDCC472E1635D6C30065234E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCC472F1635D6C30065234E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDCC473A1635D6C30065234E /* SimpleTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCC473B1635D6C30065234E /* en */,
+			);
+			name = SimpleTableViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCC473D1635D6C30065234E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDCC473E1635D6C30065234E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCC47401635D6C30065234E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTableWithoutARC/SimpleTableWithoutARC-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableWithoutARC/SimpleTableWithoutARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDCC47411635D6C30065234E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTableWithoutARC/SimpleTableWithoutARC-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableWithoutARC/SimpleTableWithoutARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCC471B1635D6C30065234E /* Build configuration list for PBXProject "SimpleTableWithoutARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC473D1635D6C30065234E /* Debug */,
+				FDCC473E1635D6C30065234E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCC473F1635D6C30065234E /* Build configuration list for PBXNativeTarget "SimpleTableWithoutARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC47401635D6C30065234E /* Debug */,
+				FDCC47411635D6C30065234E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCC47181635D6C30065234E /* Project object */;
+}

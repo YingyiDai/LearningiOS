@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF2E3111655A40600DF816E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF2E3101655A40600DF816E /* UIKit.framework */; };
+		FDF2E3131655A40600DF816E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF2E3121655A40600DF816E /* Foundation.framework */; };
+		FDF2E3151655A40600DF816E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF2E3141655A40600DF816E /* CoreGraphics.framework */; };
+		FDF2E31B1655A40600DF816E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF2E3191655A40600DF816E /* InfoPlist.strings */; };
+		FDF2E31D1655A40600DF816E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF2E31C1655A40600DF816E /* main.m */; };
+		FDF2E3211655A40600DF816E /* PickerGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF2E3201655A40600DF816E /* PickerGameAppDelegate.m */; };
+		FDF2E3241655A40600DF816E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF2E3221655A40600DF816E /* MainStoryboard.storyboard */; };
+		FDF2E3271655A40600DF816E /* PickerGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF2E3261655A40600DF816E /* PickerGameViewController.m */; };
+		FDF2E32F1655AC8E00DF816E /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF2E32E1655AC8E00DF816E /* help.png */; };
+		FDF2E3311655ACB400DF816E /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF2E3301655ACB400DF816E /* favorite.png */; };
+		FDF2E3331655ACBB00DF816E /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF2E3321655ACBB00DF816E /* good.png */; };
+		FDF2E3351655ACBF00DF816E /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF2E3341655ACBF00DF816E /* search.png */; };
+		FDF2E3371655ACC500DF816E /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF2E3361655ACC500DF816E /* cloud.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDF2E30C1655A40600DF816E /* PickerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF2E3101655A40600DF816E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDF2E3121655A40600DF816E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDF2E3141655A40600DF816E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDF2E3181655A40600DF816E /* PickerGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickerGame-Info.plist"; sourceTree = "<group>"; };
+		FDF2E31A1655A40600DF816E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF2E31C1655A40600DF816E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF2E31E1655A40600DF816E /* PickerGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PickerGame-Prefix.pch"; sourceTree = "<group>"; };
+		FDF2E31F1655A40600DF816E /* PickerGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerGameAppDelegate.h; sourceTree = "<group>"; };
+		FDF2E3201655A40600DF816E /* PickerGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerGameAppDelegate.m; sourceTree = "<group>"; };
+		FDF2E3231655A40600DF816E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FDF2E3251655A40600DF816E /* PickerGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerGameViewController.h; sourceTree = "<group>"; };
+		FDF2E3261655A40600DF816E /* PickerGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerGameViewController.m; sourceTree = "<group>"; };
+		FDF2E32E1655AC8E00DF816E /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		FDF2E3301655ACB400DF816E /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		FDF2E3321655ACBB00DF816E /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = good.png; sourceTree = "<group>"; };
+		FDF2E3341655ACBF00DF816E /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		FDF2E3361655ACC500DF816E /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF2E3091655A40600DF816E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF2E3111655A40600DF816E /* UIKit.framework in Frameworks */,
+				FDF2E3131655A40600DF816E /* Foundation.framework in Frameworks */,
+				FDF2E3151655A40600DF816E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF2E3011655A40600DF816E = {
+			isa = PBXGroup;
+			children = (
+				FDF2E32D1655AC5F00DF816E /* Resources */,
+				FDF2E3161655A40600DF816E /* PickerGame */,
+				FDF2E30F1655A40600DF816E /* Frameworks */,
+				FDF2E30D1655A40600DF816E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF2E30D1655A40600DF816E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF2E30C1655A40600DF816E /* PickerGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF2E30F1655A40600DF816E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF2E3101655A40600DF816E /* UIKit.framework */,
+				FDF2E3121655A40600DF816E /* Foundation.framework */,
+				FDF2E3141655A40600DF816E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF2E3161655A40600DF816E /* PickerGame */ = {
+			isa = PBXGroup;
+			children = (
+				FDF2E31F1655A40600DF816E /* PickerGameAppDelegate.h */,
+				FDF2E3201655A40600DF816E /* PickerGameAppDelegate.m */,
+				FDF2E3221655A40600DF816E /* MainStoryboard.storyboard */,
+				FDF2E3251655A40600DF816E /* PickerGameViewController.h */,
+				FDF2E3261655A40600DF816E /* PickerGameViewController.m */,
+				FDF2E3171655A40600DF816E /* Supporting Files */,
+			);
+			path = PickerGame;
+			sourceTree = "<group>";
+		};
+		FDF2E3171655A40600DF816E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF2E3181655A40600DF816E /* PickerGame-Info.plist */,
+				FDF2E3191655A40600DF816E /* InfoPlist.strings */,
+				FDF2E31C1655A40600DF816E /* main.m */,
+				FDF2E31E1655A40600DF816E /* PickerGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDF2E32D1655AC5F00DF816E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDF2E3361655ACC500DF816E /* cloud.png */,
+				FDF2E3341655ACBF00DF816E /* search.png */,
+				FDF2E3321655ACBB00DF816E /* good.png */,
+				FDF2E3301655ACB400DF816E /* favorite.png */,
+				FDF2E32E1655AC8E00DF816E /* help.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF2E30B1655A40600DF816E /* PickerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF2E32A1655A40600DF816E /* Build configuration list for PBXNativeTarget "PickerGame" */;
+			buildPhases = (
+				FDF2E3081655A40600DF816E /* Sources */,
+				FDF2E3091655A40600DF816E /* Frameworks */,
+				FDF2E30A1655A40600DF816E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerGame;
+			productName = PickerGame;
+			productReference = FDF2E30C1655A40600DF816E /* PickerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF2E3031655A40600DF816E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PickerGame;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = SCUT;
+			};
+			buildConfigurationList = FDF2E3061655A40600DF816E /* Build configuration list for PBXProject "PickerGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDF2E3011655A40600DF816E;
+			productRefGroup = FDF2E30D1655A40600DF816E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF2E30B1655A40600DF816E /* PickerGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF2E30A1655A40600DF816E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF2E31B1655A40600DF816E /* InfoPlist.strings in Resources */,
+				FDF2E3241655A40600DF816E /* MainStoryboard.storyboard in Resources */,
+				FDF2E32F1655AC8E00DF816E /* help.png in Resources */,
+				FDF2E3311655ACB400DF816E /* favorite.png in Resources */,
+				FDF2E3331655ACBB00DF816E /* good.png in Resources */,
+				FDF2E3351655ACBF00DF816E /* search.png in Resources */,
+				FDF2E3371655ACC500DF816E /* cloud.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF2E3081655A40600DF816E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF2E31D1655A40600DF816E /* main.m in Sources */,
+				FDF2E3211655A40600DF816E /* PickerGameAppDelegate.m in Sources */,
+				FDF2E3271655A40600DF816E /* PickerGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDF2E3191655A40600DF816E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF2E31A1655A40600DF816E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDF2E3221655A40600DF816E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF2E3231655A40600DF816E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF2E3281655A40600DF816E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDF2E3291655A40600DF816E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF2E32B1655A40600DF816E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickerGame/PickerGame-Prefix.pch";
+				INFOPLIST_FILE = "PickerGame/PickerGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDF2E32C1655A40600DF816E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickerGame/PickerGame-Prefix.pch";
+				INFOPLIST_FILE = "PickerGame/PickerGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF2E3061655A40600DF816E /* Build configuration list for PBXProject "PickerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF2E3281655A40600DF816E /* Debug */,
+				FDF2E3291655A40600DF816E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF2E32A1655A40600DF816E /* Build configuration list for PBXNativeTarget "PickerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF2E32B1655A40600DF816E /* Debug */,
+				FDF2E32C1655A40600DF816E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF2E3031655A40600DF816E /* Project object */;
+}
